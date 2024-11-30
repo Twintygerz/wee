@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Arrows:wght@400..700&family=Oswald:wght@200..700&display=swap');
+
+/* General Reset */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+}
+
+/* Header Styles */
+.header {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    padding: 20px;
+    background-color: #007BFF;
+    color: #0a0808;
+}
+
+.logo {
+    max-height: 50px; /* Adjust height as necessary */
+}
+
+.site-title {
+    margin-left: 20px; /* Spacing from the logo */
+}
+
+/* Navigation Styles */
+.navigation {
+    justify-self: end; /* Align nav to the right */
+}
+
+.nav-list {
+    display: flex;
+    list-style: none;
+}
+
+.nav-list li {
+    margin: 0 10px; /* Spacing between nav items */
+}
+
+.nav-list a {
+    color: #110a0a;
+    text-decoration: none;
+}
+/* history section style*/
+.history h1 {
+    align-items: center;
+}
+/* Adventures Section Styles */
+.adventures {
+    padding: 20px;
+    text-align: center;
+}
+
+.adventure-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 10px; /* Space between images */
+}
+
+figure {
+    margin: 0;
+}
+
+img {
+    max-width: 100%; /* Responsive images */
+    height: auto;
+}
+
+/* Footer Styles */
+.footer {
+    background-color: #1f2792;
+    color: #070505;
+    text-align: right; /* Align content to the right */
+    padding: 10px;
+}
+
+.social-media {
+    display: flex;
+    justify-content: flex-end; /* Align social icons to the right */
+}
+
+.social-icon {
+    width: 30px; /* Set size of social icons */
+    margin-left: 10px; /* Space between icons */
+}
