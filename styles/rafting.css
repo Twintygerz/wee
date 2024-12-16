@@ -96,7 +96,8 @@ img {
 #employee-profiles {
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
+    justify-content: flex-start;
+    grid-gap: 1.5rem;
 }
 
 .profile {
